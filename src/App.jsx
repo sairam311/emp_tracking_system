@@ -37,7 +37,7 @@ const AppRoutes = () => {
       
       {/* Default redirects */}
       <Route 
-        path="/Employee_Tracker" 
+        path="/emp_tracking_system" 
         element={
           user ? (
             <Navigate to={user.role === 'admin' ? '/admin/dashboard' : '/employee/home'} />
